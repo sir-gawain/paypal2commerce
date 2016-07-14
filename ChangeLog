@@ -1,0 +1,48 @@
+(add new changes on top of this file)
+11-06-18 Martin Holtz
+	* fixed Bug #10011, thanks to Georg Schönweger and Simon Schick
+10-07-17 Martin Holtz
+    * comment is now avaiable in confirmation e-mail 
+    
+10-07-14 Martin Holtz
+	* better error messages
+	* set to version 0.5 
+	
+10-05-03 Martin Holtz
+	* fixed bug #5067 thanks to Michael Staatz
+	* fixed bug #4995 thanks to Robert Heel
+	
+09-04-28 Martin Holtz
+	* added SHIPTOSTATE to address - thanks to Martin-Pierre Frenette
+
+09-04-16 Martin Holtz
+	* quoteStr needs parameter "table" too - thanks to Martin-Pierre Frenette
+
+09-04-05 Martin Holtz
+	* integration of the changes from marcus krause (error handling and a lot more, thanks!)
+	* requirements raised to php5
+
+08-03-18 Martin Holtz
+	* Added configuration parameter "debug"
+	* use now t3lib_div::locationHeaderUrl()
+
+07-12-23 Martin Holtz
+	* Writing the manual
+	* if config.baseUrl is not set, t3lib_div::getIndpEnv('TYPO3_SITE_URL') is be used
+	* some documentation inside the code
+
+07-12-12 Martin Holtz
+	* Quick Security-Bug-Fix: the amount of the basket has to be the same, which is payed via paypal, 
+	  otherwise the checkout is canceld (the payment not!)
+
+07-06-05 Martin Holtz
+	* Wie should use &useraction=commit
+
+07-06-04 Martin Holtz <typo3@martinholtz.de>
+	* Get the URL via config.baseURL
+	* deleted some debug-Code
+	* corrected error in ext_localconf.php
+
+07-05-29 Martin Holtz  <typo3@martinholtz.de>
+
+	* Initial release
